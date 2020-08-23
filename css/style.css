@@ -1,0 +1,129 @@
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            body {
+                margin: 0px;
+                padding: 0px;
+                overflow-x: hidden;
+            }
+            
+            #free {
+                border: 1px solid hsl(322, 100%, 66%);
+                color: hsl(322, 100%, 66%);
+                border-radius: 20px;
+                width: 150px;
+                text-align: center;
+                padding: 5px;
+                margin-right: 60px;
+            }
+            
+            #para {
+                width: 500px;
+                margin: auto;
+            }
+            
+            #started {
+                background-color: hsl(322, 100%, 66%);
+                color: white;
+                border-radius: 20px;
+                width: 250px;
+                text-align: center;
+                padding: 10px;
+                margin: auto;
+            }
+            
+            #last {
+                width: 100%;
+            }
+            
+            #hero {
+                width: 70%;
+            }
+            
+            #second h1 {
+                font-weight: 700;
+            }
+            
+            #second {
+                padding-top: 100px;
+                padding-left: 250px;
+                padding-right: 100px;
+            }
+            
+            #image {
+                position: relative;
+                top: 5px;
+                width: 100%;
+            }
+            
+            #image2 {
+                position: relative;
+                bottom: 5px;
+                width: 100%;
+            }
+            
+            .conversation {
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+            
+            input {
+                width: 80%;
+            }
+            
+            #bottom {}
+            
+            @media(max-width:420px) {
+                header img {
+                    width: 50%;
+                }
+                #free {
+                    width: 90px;
+                }
+                #para {
+                    width: 90%;
+                }
+                #second {
+                    padding-top: 10px;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    text-align: center;
+                }
+                #image {
+                    top: 60px;
+                }
+                #image2 {
+                    bottom: 5px;
+                }
+                #two {
+                    order: 1;
+                    text-align: center;
+                }
+                #one {
+                    order: 0;
+                    display: flex;
+                    justify-content: center;
+                }
+                #container {
+                    margin-top: 50px !important;
+                }
+                .conversation {
+                    margin-top: 60px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                }
+                #hero {
+                    width: 80%;
+                    margin-bottom: 40px;
+                }
+                input {
+                    width: 100%;
+                }
+                #last {
+                    width: 100%;
+                    position: relative;
+                    top: -5px;
+                }
+            }
